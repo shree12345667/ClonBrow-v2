@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: clonmed-mcp-server
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: 18
+      - key: PORT
+        value: 10000
+      - key: CLONMED_AUTO_OPEN
+        value: false
+    healthCheckPath: /health

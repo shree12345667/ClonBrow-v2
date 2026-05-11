@@ -1,0 +1,3 @@
+*.exe  
+"source code of .exe app/"  
+__pycache__/ 

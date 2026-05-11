@@ -1,0 +1,35 @@
+{
+  "name": "clonmed-clinical-intelligence",
+  "version": "3.1.0",
+  "description": "CLONMED Clinical Intelligence System - Medical simulation lab recommendation engine with MCP server and auto-browser integration",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js",
+    "dev": "node server.js",
+    "railway:login": "railway login",
+    "railway:init": "railway init",
+    "railway:deploy": "railway up",
+    "railway:logs": "railway logs"
+  },
+  "keywords": [
+    "medical",
+    "clinical",
+    "simulation",
+    "mcp",
+    "healthcare",
+    "education"
+  ],
+  "author": "CLONMED",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ws": "^8.16.0",
+    "zod": "^4.3.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

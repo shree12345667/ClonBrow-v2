@@ -1,0 +1,26 @@
+{
+  "name": "clonmed-mcp-server",
+  "version": "2.0.0",
+  "description": "Medical & Scientific Simulation MCP Server - Launch interactive labs for education, diagnostics, and surgical training",
+  "type": "module",
+  "main": "server.js",
+  "bin": {
+    "clonmedic": "./cli.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "inspect": "npx @modelcontextprotocol/inspector node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["mcp", "medical", "simulation", "education", "healthcare", "fhir"],
+  "author": "ClonMedic",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "open": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

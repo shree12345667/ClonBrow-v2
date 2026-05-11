@@ -1,0 +1,52 @@
+{
+  "system_metadata": {
+    "agent_name": "ClonMed Core",
+    "version": "2.5.0-RED",
+    "developer": "Shree Nitin Kale",
+    "aesthetic_protocol": "Matrix-Red / Glassmorphism",
+    "last_sync": "2026-05-01"
+  },
+  "diagnostic_matrix": [
+    {
+      "condition_id": "CRIT-001",
+      "name": "Hypovolemic Shock",
+      "priority": "HIGH",
+      "vital_triggers": {
+        "systolic_bp": "< 90 mmHg",
+        "heart_rate": "> 120 bpm",
+        "oxygen_sat": "< 94%"
+      },
+      "symptoms": ["Heavy bleeding", "Confusion", "Cold/Clammy skin"],
+      "clinical_recommendations": [
+        "Immediate IV fluid bolus (2L Normal Saline)",
+        "Request Type-O Negative emergency blood release",
+        "Apply direct pressure/tourniquet to primary trauma site"
+      ],
+      "lab_trigger": "trauma_lab.html",
+      "resource_link": "https://clonmed.re/labs/trauma"
+    },
+    {
+      "condition_id": "CARD-002",
+      "name": "Myocardial Infarction",
+      "priority": "CRITICAL",
+      "vital_triggers": {
+        "systolic_bp": "Variable",
+        "heart_rate": "> 100 bpm",
+        "oxygen_sat": "< 92%"
+      },
+      "symptoms": ["Chest pressure", "Left arm numbness", "Shortness of breath"],
+      "clinical_recommendations": [
+        "Administer 325mg Aspirin (Chewable)",
+        "12-Lead EKG within 10 minutes",
+        "Initialize Nitroglycerin protocol"
+      ],
+      "lab_trigger": "cardiac_sim.html",
+      "resource_link": "https://clonmed.re/labs/cardiac"
+    }
+  ],
+  "global_lab_links": {
+    "main_dashboard": "https://clonmed-dashboard.vercel.app",
+    "math_lab": "https://clonmed.re/sim/math-lab",
+    "physics_lab": "https://clonmed.re/sim/physics-lab"
+  }
+}

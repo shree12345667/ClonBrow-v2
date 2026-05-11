@@ -1,0 +1,7 @@
+[[edge_functions]]
+  path = "/sse"
+  function = "mcp"
+
+[[edge_functions]]
+  path = "/rpc"
+  function = "mcp"
