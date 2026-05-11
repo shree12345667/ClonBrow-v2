@@ -155,22 +155,28 @@ Submit all proposals, architectural blueprints, and technical correspondence dir
 ## 🏆 System Acknowledgments & Credits
 
 ### Project Leadership
-
 This project represents a massive independent engineering effort built entirely from the ground up.
-
 * **Lead System Architect & Founder:** Shree Kale
 * **Full-Stack Development & Interface Design:** Shree Kale
 * **Contact:** nikitakale1974@gmail.com
 
-### Infrastructure Credits
+### Dependencies and frameworks used
+The Clonverse OS architecture relies on a blend of custom logic and established frameworks to execute its dual-layer environment efficiently. 
 
-While all proprietary logic, system design, formal mathematical frameworks, and offline modules are the original work of the founder, we formally acknowledge the open-source technologies that made this complex architecture possible:
+**Repository Language Breakdown:**
+* **HTML:** **93.5%**
+* **JavaScript:** **5.1%**
+* **Python:** **1.1%**
+* **C#:** **0.2%**
+* **TypeScript:** **0.1%**
+* **Batchfile:** **0.0%**
 
-* **Python Core & Rich UI:** For powering the primary backend engine and high-definition terminal environment.
-* **Tailwind CSS & Web Stack:** For engineering the custom execution layer of the 211 localized educational modules.
-* **Electron & Netlify:** For advanced packaging infrastructure and high-speed cloud uplinks.
-
----
+**Core Frameworks & Libraries:**
+* **Frontend Engine:** HTML5, Vanilla JavaScript (ES6+), and Tailwind CSS for the 211+ localized modules and Liquid Glass UI.
+* **Backend Engine:** Python 3.10+ handling core intent logic and file decryption.
+* **Terminal Interface:** The `Rich` Python library for high-definition CLI rendering and live diagnostic panels.
+* **Packaging Infrastructure:** Electron and Nativefier to compile the web-stack and Python processes into a standalone executable.
+* **Deployment Network:** Netlify for the high-speed cloud uplinks and landing page hosting.
 
 ## ⚖️ Proprietary Rights & Software License Notice
 
